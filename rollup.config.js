@@ -12,6 +12,8 @@ import pkg from './package.json';
 import multiEntry from 'rollup-plugin-multi-entry';
 import stub from 'rollup-plugin-stub';
 
+// FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOoo
+
 const compiledLicense = _.template(fs.readFileSync('./build/license-header.txt', 'utf8'));
 const bannerData = _.pick(pkg, ['version', 'copyright']);
 const banner = compiledLicense(Object.assign({includesVtt: true}, bannerData));
