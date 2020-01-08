@@ -71,7 +71,6 @@
     "docs:lang": "node build/translations.js",
     "netlify": "node ./build/netlify-docs.js",
     "prepublishOnly": "run-p build",
-    "publish": "node build/gh-release.js",
     "version": "is-prerelease || npm run changelog && git add CHANGELOG.md",
     "zip": "cd dist && cross-env bestzip \"./video-js-${npm_package_version}.zip\" * && cd .."
   },
