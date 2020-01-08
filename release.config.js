@@ -1,5 +1,4 @@
 module.exports = {
-  dryRun: true,
   plugins: [
     ['@semantic-release/commit-analyzer', {
       preset: 'videojs'
