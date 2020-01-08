@@ -1,5 +1,5 @@
 {
-  "name": "video.js",
+  "name": "@gkatsev/videojs-release-test",
   "description": "An HTML5 and Flash video player with a common API and skin for both.",
   "version": "7.7.4",
   "main": "./dist/video.cjs.js",
@@ -77,7 +77,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/videojs/video.js.git"
+    "url": "https://github.com/gkatsev/videojs-release-test.git"
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
