@@ -1,3 +1,10 @@
+<a name="1.2.2"></a>
+## [1.2.2](https://github.com/gkatsev/videojs-release-test/compare/v1.2.1...v1.2.2) (2020-01-08)
+
+### Bug Fixes
+
+* Update README.md ([#3](https://github.com/gkatsev/videojs-release-test/issues/3)) ([acea72b](https://github.com/gkatsev/videojs-release-test/commit/acea72b))
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/gkatsev/videojs-release-test/compare/v1.2.0...v1.2.1) (2020-01-08)
 
