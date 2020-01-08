@@ -1,3 +1,10 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/gkatsev/videojs-release-test/compare/v1.0.0...v1.0.1) (2020-01-08)
+
+### Bug Fixes
+
+* no publish script ([61ac6a1](https://github.com/gkatsev/videojs-release-test/commit/61ac6a1))
+
 <a name="1.0.0"></a>
 # 1.0.0 (2020-01-08)
 
