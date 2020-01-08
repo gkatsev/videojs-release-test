@@ -6,9 +6,8 @@ module.exports = {
     ['@semantic-release/release-notes-generator', {
       preset: 'videojs'
     }],
-    ['@semantic-release/npm', {
-      tag: 'next'
-    }],
+    // tag configured in pkg.publishConfig
+    '@semantic-release/npm',
     ['@semantic-release/github', {
       assets: 'dist/video-js*.zip'
     }],

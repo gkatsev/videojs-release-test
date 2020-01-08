@@ -78,6 +78,9 @@
     "type": "git",
     "url": "https://github.com/gkatsev/videojs-release-test.git"
   },
+  "publishConfig": {
+    "tag": "next"
+  },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
     "@videojs/http-streaming": "1.11.2",
