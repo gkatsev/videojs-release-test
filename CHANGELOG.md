@@ -1,3 +1,14 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/gkatsev/videojs-release-test/compare/v1.1.0...v1.2.0) (2020-01-08)
+
+### Features
+
+* foo ([#2](https://github.com/gkatsev/videojs-release-test/issues/2)) ([1f12b31](https://github.com/gkatsev/videojs-release-test/commit/1f12b31))
+
+### Tests
+
+* Test file added for test ([#1](https://github.com/gkatsev/videojs-release-test/issues/1)) ([df3887f](https://github.com/gkatsev/videojs-release-test/commit/df3887f))
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/gkatsev/videojs-release-test/compare/v1.0.1...v1.1.0) (2020-01-08)
 
