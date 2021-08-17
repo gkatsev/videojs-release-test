@@ -29,12 +29,15 @@ jobs:
         with:
           node-version: '${{steps.nvm.outputs.NVMRC}}'
           cache: npm
+          registry-url: 'https://registry.npmjs.org'
 
       - name: npm install
         run: npm i --prefer-offline --no-audit
 
       - name: whoami
         run: npm whoami
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       # publish runs build for us via a prepublishOnly script
       - name: npm release
