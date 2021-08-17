@@ -1,3 +1,10 @@
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/gkatsev/videojs-release-test/compare/v2.0.0...v2.0.1) (2021-08-17)
+
+### Reverts
+
+* "github release comment" ([3080067](https://github.com/gkatsev/videojs-release-test/commit/3080067))
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/gkatsev/videojs-release-test/compare/v1.2.2...v2.0.0) (2021-08-17)
 
