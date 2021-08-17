@@ -74,5 +74,5 @@ jobs:
       - name: npm install video.js
         env:
           VJS_VERSION: ${{ github.event.head_commit.message }}
-        run: npm install "video.js@$VJS_VERSION"
+        run: npm install "@gkatsev/videojs-release-test@$VJS_VERSION"
       - run: ls -lah node_modules/video.js/dist
