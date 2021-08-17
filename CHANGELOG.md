@@ -1,3 +1,10 @@
+<a name="2.1.2"></a>
+## [2.1.2](https://github.com/gkatsev/videojs-release-test/compare/v2.1.1...v2.1.2) (2021-08-17)
+
+### Chores
+
+* published isnt quoted ([bdfa2ce](https://github.com/gkatsev/videojs-release-test/commit/bdfa2ce))
+
 <a name="2.1.1"></a>
 ## [2.1.1](https://github.com/gkatsev/videojs-release-test/compare/v2.1.0...v2.1.1) (2021-08-17)
 
