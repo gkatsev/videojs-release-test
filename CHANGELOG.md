@@ -1,3 +1,10 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/gkatsev/videojs-release-test/compare/v2.0.8...v2.1.0) (2021-08-17)
+
+### Chores
+
+* separate workflow to do a release on published ([fa62dd4](https://github.com/gkatsev/videojs-release-test/commit/fa62dd4))
+
 <a name="2.0.8"></a>
 ## [2.0.8](https://github.com/gkatsev/videojs-release-test/compare/v2.0.7...v2.0.8) (2021-08-17)
 
