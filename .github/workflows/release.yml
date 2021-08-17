@@ -33,6 +33,9 @@ jobs:
       - name: npm install
         run: npm i --prefer-offline --no-audit
 
+      - name: whoami
+        run: npm whoami
+
       # publish runs build for us via a prepublishOnly script
       - name: npm release
         run: npm publish --tag next
