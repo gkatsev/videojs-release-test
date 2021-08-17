@@ -1,7 +1,7 @@
 name: deploy
 on:
   release:
-    type: ['published']
+    type: [published]
 jobs:
   deploy:
     runs-on: ubuntu-latest
