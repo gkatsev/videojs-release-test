@@ -70,9 +70,6 @@ jobs:
     steps:
       - name: setup node
         uses: actions/setup-node@v2
-        with:
-          cache: npm
-          registry-url: 'https://registry.npmjs.org'
 
       - name: npm install video.js
         env:
