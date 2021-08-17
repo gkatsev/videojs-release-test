@@ -1,3 +1,11 @@
+<a name="2.2.4"></a>
+## [2.2.4](https://github.com/gkatsev/videojs-release-test/compare/v2.2.3...v2.2.4) (2021-08-17)
+
+### Chores
+
+* better install command ([230cbb5](https://github.com/gkatsev/videojs-release-test/commit/230cbb5))
+* better install command ([d08b343](https://github.com/gkatsev/videojs-release-test/commit/d08b343))
+
 <a name="2.2.3"></a>
 ## [2.2.3](https://github.com/gkatsev/videojs-release-test/compare/v2.2.2...v2.2.3) (2021-08-17)
 
