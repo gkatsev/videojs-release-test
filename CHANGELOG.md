@@ -1,3 +1,10 @@
+<a name="2.0.8"></a>
+## [2.0.8](https://github.com/gkatsev/videojs-release-test/compare/v2.0.7...v2.0.8) (2021-08-17)
+
+### Chores
+
+* CHANGELOG-LATEST ([5ad4d1a](https://github.com/gkatsev/videojs-release-test/commit/5ad4d1a))
+
 <a name="2.0.7"></a>
 ## [2.0.7](https://github.com/gkatsev/videojs-release-test/compare/v2.0.6...v2.0.7) (2021-08-17)
 
