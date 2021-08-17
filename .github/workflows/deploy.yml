@@ -1,6 +1,6 @@
 name: deploy
 on:
-  relaase:
+  release:
     type: ['published']
 jobs:
   deploy:
