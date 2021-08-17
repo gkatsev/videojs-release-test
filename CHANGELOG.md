@@ -1,3 +1,14 @@
+<a name="2.0.3"></a>
+## [2.0.3](https://github.com/gkatsev/videojs-release-test/compare/v2.0.2...v2.0.3) (2021-08-17)
+
+### Chores
+
+* release job ([da3337f](https://github.com/gkatsev/videojs-release-test/commit/da3337f))
+
+### Tests
+
+* test ([8dd3d99](https://github.com/gkatsev/videojs-release-test/commit/8dd3d99))
+
 <a name="2.0.2"></a>
 ## [2.0.2](https://github.com/gkatsev/videojs-release-test/compare/v2.0.1...v2.0.2) (2021-08-17)
 
