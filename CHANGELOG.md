@@ -1,3 +1,10 @@
+<a name="2.2.2"></a>
+## [2.2.2](https://github.com/gkatsev/videojs-release-test/compare/v2.2.1...v2.2.2) (2021-08-17)
+
+### Chores
+
+* github context ([998163c](https://github.com/gkatsev/videojs-release-test/commit/998163c))
+
 <a name="2.2.1"></a>
 ## [2.2.1](https://github.com/gkatsev/videojs-release-test/compare/v2.2.0...v2.2.1) (2021-08-17)
 
