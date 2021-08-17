@@ -1,3 +1,11 @@
+<a name="2.0.5"></a>
+## [2.0.5](https://github.com/gkatsev/videojs-release-test/compare/v2.0.4...v2.0.5) (2021-08-17)
+
+### Chores
+
+* no progress for rollup ([7d88378](https://github.com/gkatsev/videojs-release-test/commit/7d88378))
+* whoami ([e3b4912](https://github.com/gkatsev/videojs-release-test/commit/e3b4912))
+
 <a name="2.0.4"></a>
 ## [2.0.4](https://github.com/gkatsev/videojs-release-test/compare/v2.0.2...v2.0.4) (2021-08-17)
 
