@@ -1,3 +1,10 @@
+<a name="2.0.6"></a>
+## [2.0.6](https://github.com/gkatsev/videojs-release-test/compare/v2.0.5...v2.0.6) (2021-08-17)
+
+### Chores
+
+* registry url ([c8c724a](https://github.com/gkatsev/videojs-release-test/commit/c8c724a))
+
 <a name="2.0.5"></a>
 ## [2.0.5](https://github.com/gkatsev/videojs-release-test/compare/v2.0.4...v2.0.5) (2021-08-17)
 
