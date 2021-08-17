@@ -34,26 +34,14 @@ jobs:
       - name: npm install
         run: npm i --prefer-offline --no-audit
 
-      - name: whoami
-        run: npm whoami
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       # publish runs build for us via a prepublishOnly script
       - name: npm release
         run: npm publish --tag next
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Check if this is a pre-release
-        run: echo ::set-output name=IS_PRE_RELEASE::$(npx -p not-prerelease is-prerelease && echo "true" || echo "false")
-        id: pre-release-check
-
-      - name: truncate CHANGELOG.md so that we can get the current versions changes only
-        run: truncate -s 0 CHANGELOG.md
-
-      - name: Generate current release changelog
-        run: npx -p @videojs/update-changelog vjs-update-changelog --run-on-prerelease
+      - name: get current changelog
+        run: node -e "console.log(require('./build/current-changelog.js')())"
 
       - name: get dashed package version for netlify
         run: echo ::set-output name=VERSION::$(node -e "process.stdout.write(require('./package.json').version.split('.').join('-'))")
@@ -72,6 +60,6 @@ jobs:
         with:
           body_path: CHANGELOG.md
           token: ${{github.token}}
-          prerelease: ${{steps.pre-release-check.outputs.IS_PRE_RELEASE}}
+          prerelease: true
           files: dist/*.zip
           discussion_category_name: Releases
