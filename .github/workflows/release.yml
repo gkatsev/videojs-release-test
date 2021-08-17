@@ -35,10 +35,10 @@ jobs:
         run: npm i --prefer-offline --no-audit
 
       # publish runs build for us via a prepublishOnly script
-      - name: npm release
-        run: npm publish --tag next
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # - name: npm release
+      #   run: npm publish --tag next
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: get current changelog
         run: node -e "console.log(require('./build/current-changelog.js')())" > CHANGELOG-LATEST.md
@@ -63,3 +63,19 @@ jobs:
           prerelease: true
           files: dist/*.zip
           discussion_category_name: Releases
+
+  deploy:
+    needs: release
+    runs-on: ubuntu-latest
+    steps:
+      - name: setup node
+        uses: actions/setup-node@v2
+        with:
+          cache: npm
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: npm install video.js
+        env:
+          VJS_VERSION: ${{ github.event.tag_name }}
+        run: npm install video.js@`echo $VJS_VERSION | cut -d 'v' -f 2`
+      - run: cat node_modules/video.js/package.json
