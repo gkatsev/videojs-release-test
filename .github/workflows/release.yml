@@ -1,4 +1,4 @@
-name: github-release
+name: release
 on:
   push:
     tags:
@@ -9,7 +9,7 @@ on:
 jobs:
   github-release:
     env:
-      NETLIFY_BASE: 'videojs-http-streaming.netlify.app'
+      NETLIFY_BASE: 'videojs-preview.netlify.app/sandbox/'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
