@@ -1,3 +1,6 @@
+<a name="2.1.3"></a>
+## [2.1.3](https://github.com/gkatsev/videojs-release-test/compare/v2.1.2...v2.1.3) (2021-08-17)
+
 <a name="2.1.2"></a>
 ## [2.1.2](https://github.com/gkatsev/videojs-release-test/compare/v2.1.1...v2.1.2) (2021-08-17)
 
