@@ -1,3 +1,10 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/gkatsev/videojs-release-test/compare/v2.2.4...v3.0.0) (2021-08-17)
+
+### Chores
+
+* bring back needs ([385af26](https://github.com/gkatsev/videojs-release-test/commit/385af26))
+
 <a name="2.2.4"></a>
 ## [2.2.4](https://github.com/gkatsev/videojs-release-test/compare/v2.2.3...v2.2.4) (2021-08-17)
 
