@@ -34,7 +34,7 @@ jobs:
       - name: npm install
         run: npm i --prefer-offline --no-audit
 
-      publish runs build for us via a prepublishOnly script
+      # publish runs build for us via a prepublishOnly script
       - name: npm release
         run: npm publish --tag next
         env:
