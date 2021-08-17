@@ -1,3 +1,11 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/gkatsev/videojs-release-test/compare/v1.2.2...v2.0.0) (2021-08-17)
+
+### Chores
+
+* automate releases based on tags ([e908ee2](https://github.com/gkatsev/videojs-release-test/commit/e908ee2))
+* update release workflow ([c047e2b](https://github.com/gkatsev/videojs-release-test/commit/c047e2b))
+
 <a name="1.2.2"></a>
 ## [1.2.2](https://github.com/gkatsev/videojs-release-test/compare/v1.2.1...v1.2.2) (2020-01-08)
 
