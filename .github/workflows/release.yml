@@ -33,8 +33,11 @@ jobs:
       - name: npm install
         run: npm i --prefer-offline --no-audit
 
-      - name: build
-        run: npm run build-prod --if-present
+      # publish runs build for us via a prepublishOnly script
+      - name: npm release
+      - run: npm publish --tag next
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Check if this is a pre-release
         run: echo ::set-output name=IS_PRE_RELEASE::$(npx -p not-prerelease is-prerelease && echo "true" || echo "false")
@@ -64,6 +67,5 @@ jobs:
           body_path: CHANGELOG.md
           token: ${{github.token}}
           prerelease: ${{steps.pre-release-check.outputs.IS_PRE_RELEASE}}
-          files: |
-            dist/**/*.js
-            dist/**/*.css
+          files: dist/*.zip
+          discussion_category_name: Releases
