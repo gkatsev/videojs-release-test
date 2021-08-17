@@ -1,3 +1,11 @@
+<a name="2.2.0"></a>
+# [2.2.0](https://github.com/gkatsev/videojs-release-test/compare/v2.1.3...v2.2.0) (2021-08-17)
+
+### Chores
+
+* add deploy job to release.yml ([7fed491](https://github.com/gkatsev/videojs-release-test/commit/7fed491))
+* remove deploy.yml, subsequent workflows won't trigger automatically ([bd90b98](https://github.com/gkatsev/videojs-release-test/commit/bd90b98))
+
 <a name="2.1.3"></a>
 ## [2.1.3](https://github.com/gkatsev/videojs-release-test/compare/v2.1.2...v2.1.3) (2021-08-17)
 
