@@ -71,13 +71,8 @@ jobs:
       - name: setup node
         uses: actions/setup-node@v2
 
-      - name: Dump GitHub context
-        env:
-          GITHUB_CONTEXT: ${{ toJSON(github) }}
-        run: echo "$GITHUB_CONTEXT"
-
       - name: npm install video.js
         env:
-          VJS_VERSION: ${{ github.event.tag_name }}
-        run: npm install video.js@`echo $VJS_VERSION | cut -d 'v' -f 2`
+          VJS_VERSION: ${{ github.event.head_commit.message }}
+        run: npm install video.js@`$VJS_VERSION`
       - run: cat node_modules/video.js/package.json
