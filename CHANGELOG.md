@@ -1,3 +1,10 @@
+<a name="2.1.1"></a>
+## [2.1.1](https://github.com/gkatsev/videojs-release-test/compare/v2.1.0...v2.1.1) (2021-08-17)
+
+### Chores
+
+* typo ([abc7c7d](https://github.com/gkatsev/videojs-release-test/commit/abc7c7d))
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/gkatsev/videojs-release-test/compare/v2.0.8...v2.1.0) (2021-08-17)
 
