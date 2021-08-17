@@ -41,7 +41,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: get current changelog
-        run: node -e "console.log(require('./build/current-changelog.js')())"
+        run: node -e "console.log(require('./build/current-changelog.js')())" > CHANGELOG-LATEST.md
 
       - name: get dashed package version for netlify
         run: echo ::set-output name=VERSION::$(node -e "process.stdout.write(require('./package.json').version.split('.').join('-'))")
@@ -51,14 +51,14 @@ jobs:
 
       - name: add netlify preview to release notes
         run: |
-          echo "" >> CHANGELOG.md
-          echo "[netlify preview for this version](https://v${{steps.get-version.outputs.VERSION}}--${{env.NETLIFY_BASE}})" >> CHANGELOG.md
+          echo "" >> CHANGELOG-LATEST.md
+          echo "[netlify preview for this version](https://v${{steps.get-version.outputs.VERSION}}--${{env.NETLIFY_BASE}})" >> CHANGELOG-LATEST.md
         if: env.NETLIFY_BASE != ''
 
       - name: Create Github release
         uses: softprops/action-gh-release@v1
         with:
-          body_path: CHANGELOG.md
+          body_path: CHANGELOG-LATEST.md
           token: ${{github.token}}
           prerelease: true
           files: dist/*.zip
