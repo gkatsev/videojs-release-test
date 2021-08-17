@@ -1,3 +1,10 @@
+<a name="3.1.2"></a>
+## [3.1.2](https://github.com/gkatsev/videojs-release-test/compare/v3.1.1...v3.1.2) (2021-08-17)
+
+### Chores
+
+* comment ([8373522](https://github.com/gkatsev/videojs-release-test/commit/8373522))
+
 <a name="3.1.1"></a>
 ## [3.1.1](https://github.com/gkatsev/videojs-release-test/compare/v3.1.0...v3.1.1) (2021-08-17)
 
