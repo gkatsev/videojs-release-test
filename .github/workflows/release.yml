@@ -89,5 +89,6 @@ jobs:
       #     aws-region: us-east-1
 
       - name: Copy files to the CDN with the AWS CLI
-        run: |
-          echo aws s3 sync node_modules/@gkatsev/videojs-release-test/dist s3://${S3_KEY}/${VJS_VERSION}/ --acl ${S3_ACCESS}
+        run: echo $VJS_VERSION $S3_BUCKET $S3_ACCESS $S3_KEY
+        # run: |
+        #   echo aws s3 sync node_modules/@gkatsev/videojs-release-test/dist s3://${S3_KEY}/${VJS_VERSION}/ --acl ${S3_ACCESS}
