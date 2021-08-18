@@ -1,3 +1,10 @@
+<a name="3.2.3"></a>
+## [3.2.3](https://github.com/gkatsev/videojs-release-test/compare/v3.2.2...v3.2.3) (2021-08-18)
+
+### Chores
+
+* allow all branches ([341f780](https://github.com/gkatsev/videojs-release-test/commit/341f780))
+
 <a name="3.2.2"></a>
 ## [3.2.2](https://github.com/gkatsev/videojs-release-test/compare/v3.2.1...v3.2.2) (2021-08-18)
 
