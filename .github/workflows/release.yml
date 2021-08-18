@@ -81,13 +81,13 @@ jobs:
       - run: ls
       - run: ls -lah node_modules/@gkatsev/videojs-release-test/dist
 
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_S3_SECRET }}
-          aws-region: us-east-1
+      # - name: Configure AWS Credentials
+      #   uses: aws-actions/configure-aws-credentials@v1
+      #   with:
+      #     aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws-secret-access-key: ${{ secrets.AWS_S3_SECRET }}
+      #     aws-region: us-east-1
 
-      - name: Copy files the CDN with the AWS CLI
+      - name: Copy files to the CDN with the AWS CLI
         run: |
           echo aws s3 sync node_modules/@gkatsev/videojs-release-test/dist s3://${S3_KEY}/${VJS_VERSION} --acl ${S3_ACCESS}
