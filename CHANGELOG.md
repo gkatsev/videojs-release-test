@@ -1,3 +1,11 @@
+<a name="3.3.0"></a>
+# [3.3.0](https://github.com/gkatsev/videojs-release-test/compare/v3.2.3...v3.3.0) (2021-08-18)
+
+### Chores
+
+* quote secrets ([6fee7f9](https://github.com/gkatsev/videojs-release-test/commit/6fee7f9))
+* run deploy in parallel ([47fbdf9](https://github.com/gkatsev/videojs-release-test/commit/47fbdf9))
+
 <a name="3.2.3"></a>
 ## [3.2.3](https://github.com/gkatsev/videojs-release-test/compare/v3.2.2...v3.2.3) (2021-08-18)
 
