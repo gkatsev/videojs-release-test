@@ -1,3 +1,10 @@
+<a name="3.2.1"></a>
+## [3.2.1](https://github.com/gkatsev/videojs-release-test/compare/v3.2.0...v3.2.1) (2021-08-18)
+
+### Chores
+
+* don't setup creds yet ([1649762](https://github.com/gkatsev/videojs-release-test/commit/1649762))
+
 <a name="3.2.0"></a>
 # [3.2.0](https://github.com/gkatsev/videojs-release-test/compare/v3.1.2...v3.2.0) (2021-08-18)
 
