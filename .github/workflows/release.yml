@@ -67,13 +67,27 @@ jobs:
   deploy:
     needs: release
     runs-on: ubuntu-latest
+    env:
+      VJS_VERSION: ${{ github.event.head_commit.message }}
+      S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+      S3_ACCESS: ${{ secrets.AWS_S3_ACCESS }}
+      S3_KEY: ${{ secrets.AWS_S3_KEY }}
     steps:
       - name: setup node
         uses: actions/setup-node@v2
 
       - name: npm install video.js
-        env:
-          VJS_VERSION: ${{ github.event.head_commit.message }}
         run: npm install "@gkatsev/videojs-release-test@$VJS_VERSION"
       - run: ls
       - run: ls -lah node_modules/@gkatsev/videojs-release-test/dist
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_S3_SECRET }}
+          aws-region: us-east-1
+
+      - name: Copy files the CDN with the AWS CLI
+        run: |
+          aws s3 sync node_modules/@gkatsev/videojs-release-test/dist s3://${S3_KEY}/${VJS_VERSION} --acl ${S3_ACCESS}
