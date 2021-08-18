@@ -69,9 +69,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       VJS_VERSION: ${{ github.event.head_commit.message }}
-      S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-      S3_ACCESS: ${{ secrets.AWS_S3_ACCESS }}
-      S3_KEY: ${{ secrets.AWS_S3_KEY }}
+      S3_BUCKET: "${{ secrets.AWS_S3_BUCKET }}"
+      S3_ACCESS: "${{ secrets.AWS_S3_ACCESS }}"
+      S3_KEY: "${{ secrets.AWS_S3_KEY }}"
     steps:
       - name: setup node
         uses: actions/setup-node@v2
