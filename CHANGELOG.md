@@ -1,3 +1,11 @@
+<a name="3.2.2"></a>
+## [3.2.2](https://github.com/gkatsev/videojs-release-test/compare/v3.2.1...v3.2.2) (2021-08-18)
+
+### Chores
+
+* add / ([ad09142](https://github.com/gkatsev/videojs-release-test/commit/ad09142))
+* echo relevant env vars ([9dd0c50](https://github.com/gkatsev/videojs-release-test/commit/9dd0c50))
+
 <a name="3.2.1"></a>
 ## [3.2.1](https://github.com/gkatsev/videojs-release-test/compare/v3.2.0...v3.2.1) (2021-08-18)
 
