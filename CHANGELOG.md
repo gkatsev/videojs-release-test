@@ -1,3 +1,10 @@
+<a name="3.2.0"></a>
+# [3.2.0](https://github.com/gkatsev/videojs-release-test/compare/v3.1.2...v3.2.0) (2021-08-18)
+
+### Chores
+
+* echo aws command ([9c5af51](https://github.com/gkatsev/videojs-release-test/commit/9c5af51))
+
 <a name="3.1.2"></a>
 ## [3.1.2](https://github.com/gkatsev/videojs-release-test/compare/v3.1.1...v3.1.2) (2021-08-17)
 
