@@ -1,3 +1,10 @@
+<a name="3.3.2"></a>
+## [3.3.2](https://github.com/gkatsev/videojs-release-test/compare/v3.3.1...v3.3.2) (2021-08-18)
+
+### Chores
+
+* fixup env name ([fd518c7](https://github.com/gkatsev/videojs-release-test/commit/fd518c7))
+
 <a name="3.3.1"></a>
 ## [3.3.1](https://github.com/gkatsev/videojs-release-test/compare/v3.3.0...v3.3.1) (2021-08-18)
 
