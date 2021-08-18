@@ -65,7 +65,7 @@ jobs:
           discussion_category_name: Releases
 
   deploy:
-    needs: release
+    # needs: release
     runs-on: ubuntu-latest
     env:
       VJS_VERSION: ${{ github.event.head_commit.message }}
